@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li class="active"><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="about-section">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit
+          ante nec dapibus laoreet. Vivamus sagittis libero et orci aliquet, vel
+          fermentum eros dapibus. Nulla ac augue velit. Nulla facilisi.
+        </p>
+        <p>
+          Donec vitae orci nec ipsum vehicula rutrum. Duis eget ligula id lacus
+          consequat suscipit. Mauris tincidunt urna ut purus eleifend, id
+          interdum nisl ultricies.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
