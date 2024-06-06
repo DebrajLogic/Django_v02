@@ -10,7 +10,9 @@
     {% tailwind_css %}
   </head>
   <body>
-    <nav>This is a NavBar</nav>
+    <a href="{% url 'home' %}">
+      <nav>Home</nav>
+    </a>
     {% block content %}{% endblock %}
   </body>
 </html>
