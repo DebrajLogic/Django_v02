@@ -10,9 +10,13 @@
     {% tailwind_css %}
   </head>
   <body>
-    <a href="{% url 'home' %}">
-      <nav>Home</nav>
-    </a>
+    <div class='flex gap-4'>
+
+      <a href="{% url 'home' %}">
+        <nav>Home</nav>
+      </a>
+     
+    </div>
     {% block content %}{% endblock %}
   </body>
 </html>
